@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribute Page</title>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/Tribute_Page.css" />
+
+  <!-- My JS with defer attribute -->
+  <script defer src="Tribute_Page.js"></script>
+</head>
+
+<body>
+  <!-- ======================================================
+                        Navbar Section
+    ====================================================== -->
+
+  <header class="header">
+    <img src="logo.webp" alt="Logo" />
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a href="#quotes" class="navbar-link">Quotes</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#social-media" class="navbar-link">Social Media</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-nav-btn">
+      <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+      <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+    </div>
+  </header>
+
+  <!-- ======================================================
+                        Main Hero Section
+    ====================================================== -->
+
+  <section class="section section-hero" id="quotes">
+    <div class="container grid grid-two-column">
+      <div class="heading">
+        <h1>
+          My Tribute Page to the Legendary <span>Robert Downey Jr.</span>
+        </h1>
+      </div>
+
+      <!-- Rightside Section -->
+      <div class="quotes">
+        <div class="quotes-wrapper">
+          <!-- Slides -->
+          <div class="quote-slide">
+            <div class="quote">
+              <p class="quote-data">
+                People never change because they are under threat or under
+                duress. <span>Never.</span> They change because they see
+                something that makes their life seem valuable enough to start
+                moving toward a <span>life worth living.</span>
+              </p>
+              <p class="quote-author">~Robert Downey Jr</p>
+            </div>
+          </div>
+          <!-- End of Slide -->
+
+          <div class="quote-slide">
+            <div class="quote">
+              <p class="quote-data">
+                McDonald's being the official restaurant of the Olympics is
+                like <span>smoking</span> being the official
+                <span>medicine of cancer.</span>
+              </p>
+              <p class="quote-author">~Robert Downey Jr</p>
+            </div>
+          </div>
+          <!-- End of Slide -->
+
+          <div class="quote-slide">
+            <div class="quote">
+              <p class="quote-data">
+                A lot of my peer group think I'm an
+                <span>eccentric bisexual</span>, like I may even have an
+                ammonia-filled tentacle somewhere on my body.
+                <span>That's okay..</span>
+              </p>
+              <p class="quote-author">~Robert Downey Jr</p>
+            </div>
+          </div>
+          <!-- End of Slide -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+                        About Section
+    ====================================================== -->
+
+  <section class="section section-about" id="about">
+    <h2 class="common-heading">About RDJ</h2>
+      <div class="container grid grid-two-column">
+        <div class="overlay">
+          <p>
+            I take some pride in…representing myself exactly how I would like to
+            have my son remember me to his son.
+          </p>
+          <button class="btn a-btns">Biography</button>
+      </div>
+        <div class="overlay">
+          <p>
+            It's hard for me to watch Kiss Kiss Bang Bang (2005) and not get nostalgic about it. It's not perfect but in some ways, I think it's the best thing I've ever done. I don't know why
+          </p>
+          <button class="btn a-btns">Filmography</button>
+      </div>
+        <div class="overlay">
+          <p>
+            I think that we all do heroic things, but hero is not a noun, it's a verb.
+          </p>
+          <button class="btn a-btns">Personal Life</button>
+      </div>
+        <div class="overlay">
+          <p>
+            Then after I got a record deal -- and strangely the guy who was heading it up at Sony, Peter Gelb, was not a sleazebag -- I couldn't stop it once I said, "Where's my advance money?
+          </p>
+          <button class="btn a-btns">Music</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+                        Modal Section
+    ====================================================== -->
+
+    <section class="section section-modal">
+      <div class="container">
+        <div class="modal-data">
+          <div class="modal-header">
+            <h2 class="common-heading">Biography</h2>
+          </div>
+          <div class="modal-body">
+            <nav class="navbar nav-tabs">
+              <ul class="navbar-list">
+                <li class="active"><a href="">Early Life</a></li>
+                <li><a href="">A Rising Star</a></li>
+                <li><a href="">Drug and Alcohol Abuse</a></li>
+                <li><a href="">Turning Point</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  <!-- ======================================================
+                        JavaScript Section
+    ====================================================== -->
+</body>
+
+</html>
